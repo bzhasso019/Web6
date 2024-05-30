@@ -127,7 +127,7 @@
         setVal('gender', $fet['gender']);
         setVal('like_lang', $like_lang);
         setVal('biography', $fet['biography']);
-        setVal('oznakomlen', ['oznakomlen']);
+        setVal('oznakomlen', 1);
       }
       catch(PDOException $e){
         print('Error : ' . $e->getMessage());
