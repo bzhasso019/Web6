@@ -1,120 +1,145 @@
-body{
+body {
     padding: 0;
     margin: 0;
+    font-family: 'Arial', sans-serif;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-label{
+
+label {
     margin-bottom: 0;
 }
-form{
-    width: 400px;
-    border: 1px #aaa solid;
-    border-radius: 8px;
-    background-color: #fcfcfc;
+
+form {
+    width: 800px;
+    border: 8px #763301 solid;
+    border-radius: 30px;
+    background-color: #474343;
     padding: 10px;
     margin: auto;
     position: relative;
 }
-form h3{
-    text-align: center;
-    font-weight: normal;
-    margin-top: 10px;
-}
-form input{
-    font-size: 16px;
-}
-form input,
-form textarea,
-form select{
-    outline: none;
-    border: 1px #aaa solid;
-    border-radius: 3px;
-    padding: 3px 6px;
-}
-.w100{
+
+    form h3 {
+        text-align: center;
+        font-weight: normal;
+        margin-top: 12px;
+    }
+
+    form input {
+        font-size: 18px;
+    }
+
+    form input,
+    form textarea,
+    form select {
+        outline: none;
+        border: 1px #bbb solid;
+        border-radius: 4px;
+        padding: 4px 8px;
+    }
+
+.w100 {
     width: 100%;
 }
-form > div{
-    margin: 6px 0;
+
+form > div {
+    margin: 8px 0;
 }
-form .ent{
+
+form .ent {
     text-align: left;
 }
-form .ent label{
-    margin-left: 10px;
-}
-form .ent > input{
-    margin-left: 12px;
-}
-form textarea{
+
+    form .ent label {
+        margin-left: 12px;
+    }
+
+    form .ent > input {
+        margin-left: 14px;
+    }
+
+form textarea {
     width: 100%;
-    height: 100px;
+    height: 210px;
     resize: vertical;
-    font-size: 16px;
-}
-form button,
-.logout_form,
-.login_form{
-    width: 100px;
-    height: 30px;
-    background: rgb(60, 255, 190);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: calc(50% - 50px);
-    outline: none !important;
-}
-form button:active{
-    filter: brightness(120%);
-}
-.logout_form,
-.login_form{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: unset;
-    background: brown !important;
-    padding: 3px 8px;
-    height: unset;
-    color: #fff !important;
-}
-.login_form{
-    background: rgb(56, 56, 231) !important;
-}
-.message{
-    font-size: 21px;
-    color: green;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.messageError{
-    color: red;
     font-size: 15px;
 }
-.borred{
-    border-color: red;
+
+form button,
+.logout_form,
+.login_form {
+    width: 110px;
+    height: 42px;
+    background: rgb(29 122 15);
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-left: calc(50% - 55px);
+    outline: none !important;
+    font-size: 15px;
 }
-.colred{
-    color: red;
+
+    form button:active {
+        filter: brightness(115%);
+    }
+
+.logout_form,
+.login_form {
+    position: absolute;
+    top: 20px;
+    right: 23px;
+    width: unset;
+    background: #b00000 !important;
+    padding: 4px 10px;
+    height: unset;
+    color: #fff !important;
+    font-size: 14px;
 }
-.message_info{
-    color: orange !important;
+
+.login_form {
+    background: rgb(38 109 12) !important;
 }
-.pform{
+
+.message {
+    font-size: 19px;
+    color: #008000;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.messageError {
+    color: #e00000;
+    font-size: 14px;
+}
+
+.borred {
+    border-color: #e00000;
+}
+
+.colred {
+    color: #e00000;
+}
+
+.message_info {
+    color: #ffa500 !important;
+}
+
+.pform {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
-    min-height: 900px;
+    min-height: 850px;
 }
 
-.pformAuth > form > div{
-    margin: 20px 0;
+.pformAuth > form > div {
+    margin: 18px 0;
 }
 
-.editBut{
-    background: orange !important;
+.editBut {
+    background: #ffa500 !important;
 }
